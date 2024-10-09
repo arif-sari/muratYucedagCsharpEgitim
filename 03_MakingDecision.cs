@@ -104,9 +104,21 @@ namespace _03_Making_Decision
             //    Console.WriteLine("Şehir bulunamadı");
             //}
 
+            //Console.WriteLine("Lütfen kullanıcı adı giriniz:");
+            //string username = Console.ReadLine();
+
+            //if (username != "admin")
+            //{
+            //    Console.WriteLine("Bu kullanıcı adı kabul edilemez");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Hoşgeldiniz "+ username );
+            //}
+                        #endregion
 
             Console.Read();
-            #endregion
+
 
         }
     }
