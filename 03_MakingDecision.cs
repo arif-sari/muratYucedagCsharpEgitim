@@ -57,40 +57,52 @@ namespace _03_Making_Decision
             //    Console.WriteLine("Sayı hatalı");
             //}
 
-            int exam1, exam2, exam3, average;
-            string result="Hata!";
+            //int exam1, exam2, exam3, average;
+            //string result="Hata!";
 
-            Console.WriteLine("Sınav1:");
-            exam1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Sınav2: ");
-            exam2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Sınav3: ");
-            exam3 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Sınav1:");
+            //exam1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Sınav2: ");
+            //exam2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Sınav3: ");
+            //exam3 = int.Parse(Console.ReadLine());
 
-            average = (exam1 + exam2 + exam3) / 3;
-            Console.WriteLine("Sınav ortalaması: " + average);
+            //average = (exam1 + exam2 + exam3) / 3;
+            //Console.WriteLine("Sınav ortalaması: " + average);
 
-            //crtl+k+d kodları düzenleme
-            if (average>0 & average <= 50)
-            {
-                result = "Sonuç vasat";
-            }
-            if (average>50 & average<=70) 
-            {
-                result= "Sonuc orta ";
-            }
-            if (average>70 & average <=84 )
-            {
-                result = "Sonuc vasat";
-            }
-            if( average > 84)
-            {
-                result = "Sonuç çok iyi";
-            }
-            
+            ////crtl+k+d kodları düzenleme
+            //if (average>0 & average <= 50)
+            //{
+            //    result = "Sonuç vasat";
+            //}
+            //if (average>50 & average<=70) 
+            //{
+            //    result= "Sonuc orta ";
+            //}
+            //if (average>70 & average <=84 )
+            //{
+            //    result = "Sonuc vasat";
+            //}
+            //if( average > 84)
+            //{
+            //    result = "Sonuç çok iyi";
+            //}
 
-            Console.WriteLine(result);
 
+            //Console.WriteLine(result);
+
+            //string city;
+            //Console.Write("Lütfen şehir girişi yapınız");
+            //city = Console.ReadLine();
+
+            //if (city=="adana"|city=="bursa"|city=="trabzon")
+            //{
+            //    Console.WriteLine("Şehir mevcut");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Şehir bulunamadı");
+            //}
 
 
             Console.Read();
