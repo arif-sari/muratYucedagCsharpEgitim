@@ -41,11 +41,11 @@ namespace _05_LoopWithStars
             for (int i = 1; i <= 5; i++)
             {
                 
-
-                for (int j = 1; j <= 5; j++)
+                for (int j = 1; j <= 2; j++)
                 {
-                    Console.WriteLine("*");                  
+                    Console.Write("*");                  
                 }
+                Console.WriteLine();
             }
 
             #endregion
